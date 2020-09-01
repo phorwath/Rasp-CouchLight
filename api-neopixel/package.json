@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "onoff": "^6.0.0",
-    "rpi-gpio": "^2.1.7"
+    "rpi-ws281x-native": "^0.10.0"
   }
 }

@@ -11,7 +11,6 @@ const pause = () => new Promise(res => setTimeout(res, 250));
 
 process.on ('SIGINT',() => {
   console.log('You clicked Ctrl+C!');
-  ws281x.reset();
   process.exit(1);
 });
 
